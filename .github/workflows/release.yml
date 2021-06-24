@@ -1,8 +1,8 @@
 name: 'libovsdb-release'
 on:
-  push:
+  create:
     tags:
-      - '*'
+      - v*
 
 jobs:
   release:
